@@ -144,7 +144,7 @@ class Home extends Component {
         this.moveToOtherList(sourceIdParentEl, targetEl, sourceIdEl);
       }
     } else if(ev.target.className === 'card prel') {
-      //if source elm dragged to card, drop it in its parent elm- cardsWrapper. //
+      //if source elm dragged to card, drop it in its parent elm- cardsWrapper. // g
       let targetEl = ev.target.parentElement;
       if(targetEl.className=='cardsWrapper') {
         this.moveToOtherList(sourceIdParentEl, targetEl, sourceIdEl);
